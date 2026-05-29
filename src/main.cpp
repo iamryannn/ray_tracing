@@ -1,4 +1,5 @@
 #include "rtweekend.h"
+
 #include "camera.h"
 #include "hittable.h"
 #include "hittable_list.h"
@@ -58,7 +59,7 @@ int main() {
 
     cam.aspect_ratio      = 16.0 / 9.0;
     cam.image_width       = 1200;
-    cam.samples_per_pixel = 1;
+    cam.samples_per_pixel = 300;
     cam.max_depth         = 50;
     cam.background        = color(0.9, 0.9, 0.9);
 
